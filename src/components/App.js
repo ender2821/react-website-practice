@@ -9,6 +9,7 @@ class App extends React.Component {
         return(
             <div className="app-start">
             	<Header phone={this.state.phone}/>
+                {this.props.children}
             </div>   
         );
     }
